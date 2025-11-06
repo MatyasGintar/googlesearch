@@ -1,0 +1,110 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #202124;
+  margin: 0;
+  padding: 0;
+}
+
+.top-links {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
+.top-links a {
+  margin-left: 15px;
+  text-decoration: none;
+  color: #1a0dab;
+  font-size: 14px;
+}
+
+.search-container {
+  text-align: center;
+  margin-top: 15%;
+}
+
+.logo {
+  font-size: 80px;
+  color: #4285f4;
+  font-family: "Product Sans", Arial, sans-serif;
+  margin-bottom: 30px;
+}
+
+.search-box {
+  width: 500px;
+  padding: 10px 15px;
+  border: 1px solid #dcdcdc;
+  border-radius: 25px;
+  outline: none;
+  font-size: 16px;
+}
+
+.search-box:focus {
+  box-shadow: 0 0 5px rgba(66,133,244,0.5);
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.search-button {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  padding: 8px 16px;
+  margin: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  border: 1px solid #dadce0;
+}
+
+.advanced-container {
+  max-width: 600px;
+  margin: 100px auto;
+  padding: 20px;
+}
+
+.advanced-container h2 {
+  color: #d93025;
+  font-size: 20px;
+  font-weight: normal;
+  border-bottom: 1px solid #ebebeb;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  padding: 8px;
+  border: 1px solid #dcdcdc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.advanced-button {
+  background-color: #1a73e8;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.advanced-button:hover {
+  background-color: #1558b0;
+}
